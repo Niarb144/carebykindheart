@@ -28,14 +28,15 @@ export default function Hero() {
           animate="show"
         >
           <motion.p variants={item} className="eyebrow">
-            In-home care across the Denver metro
+            In-home care across the Spokane County area.
           </motion.p>
           <motion.h1 variants={item} className="h1 mt-4">
             Compassionate, reliable in-home care for your loved ones.
           </motion.h1>
           <motion.p variants={item} className="body-lg mt-6 max-w-prose">
-            Personalized care plans tailored to seniors and individuals needing
-            daily assistance — right at home, from caregivers you can trust.
+            We provide in-home senior care and disability support for adults
+             across Spokane County, Washington. As a small, hands-on team,
+              you talk directly to the people who run this company, not a call center.
           </motion.p>
           <motion.div variants={item} className="mt-9 flex flex-wrap gap-4">
             <Button href="/contact">Request Free Assessment</Button>
@@ -56,7 +57,7 @@ export default function Hero() {
         >
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-card shadow-soft md:aspect-[5/6]">
             <Image
-              src="https://images.unsplash.com/photo-1576765607924-3f7b0f89a4a1?q=80&w=1200&auto=format&fit=crop"
+              src="/hero1.jpg"
               alt="A caregiver sitting with an older adult, smiling together at home"
               fill
               priority

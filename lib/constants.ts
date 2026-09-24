@@ -12,14 +12,14 @@ import {
 } from "lucide-react";
 
 export const BRAND = {
-  name: "CareNest HomeCare",
-  phoneDisplay: "(800) 555-CARE",
-  phoneHref: "tel:+18005552273",
-  email: "hello@carenesthomecare.com",
-  addressLine1: "4820 Ridgeview Parkway, Suite 210",
-  addressLine2: "Denver, CO 80202",
+  name: "CarebyKindHeart",
+  phoneDisplay: "(908) 666-CARE",
+  phoneHref: "tel:(908) 666-3853",
+  email: "hello@carebykindheart.org",
+  addressLine1: "821 N Stanley St",
+  addressLine2: "Medical Lake, WA 99022",
   serviceAreaNote:
-    "Proudly serving families across the Denver metro area and surrounding counties. Ask us if we cover your ZIP code.",
+    "Proudly serving families across the Spokane county area. Ask us if we cover your ZIP code.",
 };
 
 export const NAV_LINKS = [
