@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream text-slate antialiased;
+  font-size: 17px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid #0f766e;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.section {
+  @apply px-6 py-20 md:px-10 md:py-28;
+}
+
+.section-inner {
+  @apply mx-auto w-full max-w-6xl;
+}
+
+.eyebrow {
+  @apply text-sm font-semibold tracking-wide text-teal;
+}
+
+.h1 {
+  @apply font-display text-4xl leading-tight text-teal-deep md:text-6xl md:leading-tight;
+}
+
+.h2 {
+  @apply font-display text-3xl leading-tight text-teal-deep md:text-4xl;
+}
+
+.body-lg {
+  @apply text-lg leading-relaxed text-slate-soft md:text-xl;
+}
