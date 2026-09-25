@@ -3,7 +3,7 @@ import PageHero from "@/components/PageHero";
 import { BRAND } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | CareNest HomeCare",
+  title: "Privacy Policy | Care by KindHeart",
 };
 
 export default function PrivacyPolicyPage() {

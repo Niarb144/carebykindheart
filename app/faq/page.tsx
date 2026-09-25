@@ -5,9 +5,9 @@ import CTASection from "@/components/CTASection";
 import { BRAND } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "FAQ | CareNest HomeCare",
+  title: "FAQ | Care by KindHeart",
   description:
-    "Answers to common questions about CareNest HomeCare's caregivers, pricing, scheduling, and care process.",
+    "Answers to common questions about Care by KindHeart's caregivers, pricing, scheduling, and care process.",
 };
 
 const FAQS = [

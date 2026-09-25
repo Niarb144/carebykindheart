@@ -5,9 +5,9 @@ import ContactForm from "@/components/ContactForm";
 import { BRAND } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Contact Us | CareNest HomeCare",
+  title: "Contact Us | Care by KindHeart",
   description:
-    "Reach the CareNest HomeCare team for a free care assessment. Call, email, or send us your loved one's care needs directly.",
+    "Reach the Care by KindHeart team for a free care assessment. Call, email, or send us your loved one's care needs directly.",
 };
 
 export default function ContactPage() {

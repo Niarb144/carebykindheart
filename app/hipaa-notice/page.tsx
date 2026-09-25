@@ -3,7 +3,7 @@ import PageHero from "@/components/PageHero";
 import { BRAND } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "HIPAA Notice | CareNest HomeCare",
+  title: "HIPAA Notice | Care by KindHeart",
 };
 
 export default function HipaaNoticePage() {

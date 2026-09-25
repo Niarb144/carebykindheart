@@ -6,9 +6,9 @@ import ZipCodeFinder from "@/components/ZipCodeFinder";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Our Services | CareNest HomeCare",
+  title: "Our Services | Care by KindHeart",
   description:
-    "Explore CareNest HomeCare's full range of in-home care services, our four-step care process, and check availability in your area.",
+    "Explore Care by KindHeart's full range of in-home care services, our four-step care process, and check availability in your area.",
 };
 
 export default function ServicesPage() {
