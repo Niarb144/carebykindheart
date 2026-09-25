@@ -5,9 +5,9 @@ import PageHero from "@/components/PageHero";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "About Us | CareNest HomeCare",
+  title: "About Us | Care by KindHeart",
   description:
-    "CareNest HomeCare's mission is to improve quality of life for aging adults and support families caring for loved ones at home.",
+    "Care by KindHeart's mission is to improve quality of life for aging adults and support families caring for loved ones at home.",
 };
 
 const PILLARS = [
@@ -15,7 +15,7 @@ const PILLARS = [
     icon: GraduationCap,
     title: "Experienced",
     description:
-      "CareNest HomeCare is a state-licensed in-home care agency that has served families in the Denver metro area and surrounding counties for more than a decade.",
+      "Care by KindHeart is a state-licensed in-home care agency that has served families in the Denver metro area and surrounding counties for more than a decade.",
   },
   {
     icon: ShieldCheck,
@@ -35,7 +35,7 @@ export default function AboutPage() {
   return (
     <>
       <PageHero
-        eyebrow="About CareNest"
+        eyebrow="About Care by KindHeart"
         title="Our mission is simple: help families care for the people they love."
       />
 
@@ -47,7 +47,7 @@ export default function AboutPage() {
               Improving quality of life for aging adults, one family at a time.
             </h2>
             <p className="body-lg mt-5">
-              Everything we do at CareNest HomeCare is driven by a single
+              Everything we do at Care by KindHeart is driven by a single
               purpose: helping aging adults stay safe, comfortable, and
               independent at home, while giving their families genuine peace
               of mind.
@@ -61,7 +61,7 @@ export default function AboutPage() {
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-card shadow-soft">
             <Image
-              src="https://images.unsplash.com/photo-1516307365426-bea591f05011?q=80&w=1200&auto=format&fit=crop"
+              src="/hero.jpg"
               alt="A caregiver helping an older adult take a walk outdoors"
               fill
               sizes="(min-width: 768px) 500px, 90vw"
